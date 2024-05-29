@@ -6,8 +6,8 @@ from openpyxl import load_workbook
 database = pymysql.connect(
     host="localhost",
     user="root",
-    passwd="12345678",
-    db="first_sikorsky"
+    passwd="Your_password",
+    db="Sikorsky"
 )
 cursor = database.cursor()
 
