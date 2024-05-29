@@ -81,5 +81,4 @@ To use the scripts in this repository, you need to have SQLite, Python, MySQL, a
 
    The script will create the necessary tables and insert data from the specified Excel files into the MySQL database.
 
-## Contributing
-Contributions are we
+
