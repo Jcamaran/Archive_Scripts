@@ -1,7 +1,16 @@
-#  Archives Database Scripts
+# Sikorsky Archives Database Scripts
 
 ## Description
 This repository contains SQL and Python scripts used for querying, inserting, and transferring data into the Sikorsky Archives database. These scripts are part of an internship project focused on managing and retrieving historical data related to Sikorsky Aircraft.
+
+## Purpose
+During my internship at Sikorsky Archives, I developed these scripts to help address various challenges related to creating and managing a database. The scripts serve multiple purposes, including:
+
+- Demonstrating how to create and manipulate database entries.
+- Showing methods for exporting and importing data.
+- Providing tools for searching and retrieving specific data.
+
+These scripts are intended to be deposited as part of my work, to assist with ongoing and future efforts in managing the Sikorsky Archives database.
 
 ## Contents
 The repository includes the following files:
@@ -73,10 +82,4 @@ To use the scripts in this repository, you need to have SQLite, Python, MySQL, a
    The script will create the necessary tables and insert data from the specified Excel files into the MySQL database.
 
 ## Contributing
-Contributions are welcome! Please open an issue or submit a pull request with your changes.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-For any questions or support, please feel free to reach out.
+Contributions are we
