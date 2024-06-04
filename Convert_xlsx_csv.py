@@ -2,8 +2,8 @@ import os
 import pandas as pd
 
 # Define paths
-input_folder = r"/Users/joaquincamaran/Documents/Sikorsky(SAMPLE)/sample_excel_data"
-output_folder = r"/Users/joaquincamaran/Documents/Sikorsky(SAMPLE)/csv_output"
+input_folder = r"PATH_to_input_folder"
+output_folder = r"PATH_to_output_folder"
 
 # Create output folder if it doesn't exist
 if not os.path.exists(output_folder):
