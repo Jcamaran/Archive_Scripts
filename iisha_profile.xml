@@ -3,7 +3,7 @@
  xsi:noNamespaceSchemaLocation="dacs.xml" useForConfiguration="1" base="base"
  infoUrl="http://providence.collectiveaccess.org/wiki/DefaultProfile">
   <profileName>[DEFAULT] Visual resources collection</profileName>
-  <profileDescription>Profile for art gallery, art collection, or any type of visual resources collection</profileDescription>
+  <profileDescription>This si the profile for Sikorsky Archives originally from DACS profile</profileDescription>
   <locales>
     <locale lang="en" country="US">English</locale>
   </locales>
@@ -42,41 +42,39 @@
       </labels>
       <items>
         <item idno="document" enabled="1" default="0">
-        <items>
-         <item idno="logs_and_files" enabled="1" default="0">
-           <labels>
-             <label locale="en_US" preferred="1">
-               <name_singular>Logs And Files</name_singular>
-               <name_plural>Logs And Files</name_plural>
-             </label>
-           </labels>
-         </item>
-        <item idno="notes_and_handouts" enabled="1" default="0">
-           <labels>
-             <label locale="en_US" preferred="1">
-               <name_singular>Notes and Handouts</name_singular>
-               <name_plural>Notes and Handouts</name_plural>
-             </label>
-           </labels>
-         </item>
-        <item idno="scrapbooks_and_miscellaneous_documents" enabled="1" default="0">
-           <labels>
-             <label locale="en_US" preferred="1">
-               <name_singular>Scrapbooks and Miscellaneous Documents
-               </name_singular>
-               <name_plural>Scrapbooks and Miscellaneous Documents
-               </name_plural>
-             </label>
-           </labels>
-         </item></items>
           <labels>
             <label locale="en_US" preferred="1">
               <name_singular>Document</name_singular>
               <name_plural>Documents</name_plural>
             </label>
           </labels>
+          <items>
+            <item idno="logs_and_files" enabled="1" default="0">
+              <labels>
+                <label locale="en_US" preferred="1">
+                  <name_singular>Logs And Files</name_singular>
+                  <name_plural>Logs And Files</name_plural>
+                </label>
+              </labels>
+            </item>
+            <item idno="notes_and_handouts" enabled="1" default="0">
+              <labels>
+                <label locale="en_US" preferred="1">
+                  <name_singular>Notes and Handouts</name_singular>
+                  <name_plural>Notes and Handouts</name_plural>
+                </label>
+              </labels>
+            </item>
+            <item idno="scrapbooks_and_miscellaneous_documents" enabled="1" default="0">
+              <labels>
+                <label locale="en_US" preferred="1">
+                  <name_singular>Scrapbooks and Miscellaneous Documents</name_singular>
+                  <name_plural>Scrapbooks and Miscellaneous Documents</name_plural>
+                </label>
+              </labels>
+            </item>
+          </items>
         </item>
-
         <item idno="media" enabled="0" default="0">
           <labels>
             <label locale="en_US" preferred="1">
@@ -274,8 +272,6 @@
               </labels>
             </item>
           </items>
-          
-          
         </item>
       </items>
     </list>
@@ -517,6 +513,7 @@
         </item>
       </items>
     </list>
+    
     <list code="storage_location_types" hierarchical="1" system="0" vocabulary="0">
       <labels>
         <label locale="en_US">
@@ -913,6 +910,501 @@
         </item>
       </items>
     </list>
+    <!-- Media Subcategory Section for custom  Sikorsky heirarchical object types -->
+    <list code="film_and_tape_types" hierarchical="0" system="0" vocabulary="0">
+      <labels>
+        <label locale="en_US">
+          <name>Film And Tape Types</name>
+        </label>
+      </labels>
+      <items>
+        <item idno="16mm_film" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>16 Millimeter Film</name_singular>
+              <name_plural>16 Millimeter Films</name_plural>
+            </label>
+          </labels>
+        </item>
+        
+        <item idno="8mm_film" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>8 Millimeter Film</name_singular>
+              <name_plural>8 Millimeter Films</name_plural>
+            </label>
+          </labels>
+        </item>
+        
+        <item idno="1inch_tape" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>1-Inch Tape</name_singular>
+              <name_plural>1-Inch Tapes</name_plural>
+            </label>
+          </labels>
+        </item>
+        
+        <item idno="34inch_tape" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>3/4 Inch Tape</name_singular>
+              <name_plural>3/4 Inch Tapes</name_plural>
+            </label>
+          </labels>
+        </item>
+        
+        <item idno="beta_cam_tape" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Beta-Cam Tape</name_singular>
+              <name_plural>Beta-Cam Tapes</name_plural>
+            </label>
+          </labels>
+        </item>
+        
+        <item idno="vhs_video_tape" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>VHS Video Tape</name_singular>
+              <name_plural>VHS Video Tapes</name_plural>
+            </label>
+          </labels>
+        </item>
+      </items> 
+    </list>
+    <list code="digital_media_types" hierarchical="0" system="0" vocabulary="0">
+      <labels>
+        <label locale="en_US">
+          <name>Digital Media Types</name>
+        </label>
+      </labels>
+      <items>
+        <item idno="compact_disk" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Compact Disk</name_singular>
+              <name_plural>Compact Disks</name_plural>
+            </label>
+          </labels>
+        </item>
+        
+        <item idno="digital_video_disk" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Digital Video Disk</name_singular>
+              <name_plural>Digital Video Disks</name_plural>
+            </label>
+          </labels>
+        </item>
+      </items>
+      
+    </list>
+    <list code="print_media_types" hierarchical="0" system="0" vocabulary="0">
+      <labels>
+        <label locale="en_US">
+          <name>Print Media Types</name>
+        </label>
+      </labels>
+      <items>
+        <item idno="booklet" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Booklet</name_singular>
+              <name_plural>Booklets</name_plural>
+            </label>
+          </labels>
+        </item>
+        
+        <item idno="book" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Book</name_singular>
+              <name_plural>Books</name_plural>
+            </label>
+          </labels>
+        </item>
+        
+        <item idno="manual" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Manual</name_singular>
+              <name_plural>Manuals</name_plural>
+            </label>
+          </labels>
+        </item>
+        
+        <item idno="pamphlet" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Pamphlet</name_singular>
+              <name_plural>Pamphlets</name_plural>
+            </label>
+          </labels>
+        </item>
+        
+        <item idno="periodical" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Periodical</name_singular>
+              <name_plural>Periodicals</name_plural>
+            </label>
+          </labels>
+        </item>
+        
+        <item idno="report" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Report</name_singular>
+              <name_plural>Reports</name_plural>
+            </label>
+          </labels>
+        </item>
+        
+        <item idno="papers" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Paper</name_singular>
+              <name_plural>Papers</name_plural>
+            </label>
+          </labels>
+        </item>
+        
+      </items>
+    </list>
+    <!-- Document Types Subcategory -->
+    <list code="log_and_file_types" hierarchical="0" system="0" vocabulary="0">
+      <labels>
+        <label locale="en_US">
+          <name>Log and File Types</name>
+        </label>
+      </labels>
+      <items>
+        <item idno="donations_log" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Donations Log</name_singular>
+              <name_plural>Donations Logs</name_plural>
+            </label>
+          </labels>
+        </item>
+        
+        <item idno="file" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>File</name_singular>
+              <name_plural>Files</name_plural>
+            </label>
+          </labels>
+        </item>
+        
+        <item idno="igor_sikorsky_personal_file" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Igor Sikorsky Personal File</name_singular>
+              <name_plural>Igor Sikorsky Personal Files</name_plural>
+            </label>
+          </labels>
+        </item>
+        
+        <item idno="igor_sikorsky_reading_file" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Igor Sikorsky Reading File</name_singular>
+              <name_plural>Igor Sikorsky Reading Files</name_plural>
+            </label>
+          </labels>
+        </item>
+        
+        <item idno="igor_sikorsky_secretarial_file" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Igor Sikorsky Secretarial File</name_singular>
+              <name_plural>Igor Sikorsky Secretarial Files</name_plural>
+            </label>
+          </labels>
+        </item>
+        
+      </items>
+    </list>
+    <list code="note_and_handout_types" hierarchical="0" system="0" vocabulary="0">
+      <labels>
+        <label locale="en_US">
+          <name>Log and File Types</name>
+        </label>
+      </labels>
+      <items>
+        <item idno="note" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Note</name_singular>
+              <name_plural>Notes</name_plural>
+            </label>
+          </labels>
+        </item>
+        
+        <item idno="handout" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Handout</name_singular>
+              <name_plural>Handouts</name_plural>
+            </label>
+          </labels>
+        </item>
+        
+      </items>
+    </list>
+    <list code="scrapbook_and_miscellaneous_document_types" hierarchical="0" system="0" vocabulary="0">
+      <labels>
+        <label locale="en_US">
+          <name>Scrapbook/Miscellaneous Document Types
+          </name>
+        </label>
+      </labels>
+      <items>
+        <item idno="scrapbook" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Scrapbook</name_singular>
+              <name_plural>Scrapbooks</name_plural>
+            </label>
+          </labels>
+        </item>
+        
+        <item idno="flat_document" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Flat Document</name_singular>
+              <name_plural>Flat Documents</name_plural>
+            </label>
+          </labels>
+        </item>   
+      </items>
+    </list>
+    <!-- Visual Subategory Types -->
+    <list code="photograph_and_negative_types" hierarchical="0" system="0" vocabulary="0">
+      <labels>
+        <label locale="en_US">
+          <name>Photograph/Negatives
+          </name>
+        </label>
+      </labels>
+      <items>
+        <item idno="photograph" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Photograph</name_singular>
+              <name_plural>Photographs</name_plural>
+            </label>
+          </labels>
+        </item>
+        
+        <item idno="negative" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Negative</name_singular>
+              <name_plural>Negatives</name_plural>
+            </label>
+          </labels>
+        </item>
+        
+      </items>
+    </list>
+    <list code="slides_posters_artwork" hierarchical="0" system="0" vocabulary="0">
+      <labels>
+        <label locale="en_US">
+          <name>Slides/Posters/Artwork
+          </name>
+        </label>
+      </labels>
+      <items>
+        <item idno="slides" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Slide</name_singular>
+              <name_plural>Slides</name_plural>
+            </label>
+          </labels>
+        </item>
+        
+        <item idno="posters" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Poster</name_singular>
+              <name_plural>Posters</name_plural>
+            </label>
+          </labels>
+        </item>
+        
+        <item idno="artwork" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Artwork</name_singular>
+              <name_plural>Artworks</name_plural>
+            </label>
+          </labels>
+        </item>
+        
+      </items>
+    </list>
+    <!-- Miscellaneous Subcategory types -->
+    <list code="calendars_and_equipment" hierarchical="0" system="0" vocabulary="0">
+      <labels>
+        <label locale="en_US">
+          <name>Calendars and Equipment</name>
+        </label>
+      </labels>
+      <items>
+        <item idno="calendar" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Calendar</name_singular>
+              <name_plural>Calendars</name_plural>
+            </label>
+          </labels>
+        </item>
+        <item idno="equipment" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Equipment</name_singular>
+              <name_plural>Equipments</name_plural>
+            </label>
+          </labels>
+        </item>
+      </items>
+    </list>
+    
+    <list code="models_and_material" hierarchical="0" system="0" vocabulary="0">
+      <labels>
+        <label locale="en_US">
+          <name>Models and Material</name>
+        </label>
+      </labels>
+      <items>
+        <item idno="model" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Model</name_singular>
+              <name_plural>Models</name_plural>
+            </label>
+          </labels>
+        </item>
+        <item idno="material" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Material</name_singular>
+              <name_plural>Materials</name_plural>
+            </label>
+          </labels>
+        </item>
+      </items>
+    </list>
+    
+    <list code="miscellaneous_items" hierarchical="0" system="0" vocabulary="0">
+      <labels>
+        <label locale="en_US">
+          <name>Miscellaneous Items</name>
+        </label>
+      </labels>
+      <items>
+        <item idno="item_unrelated_to_all_other_memorabilia" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Item Unrelated to All Other Memorabilia</name_singular>
+              <name_plural>Items Unrelated to All Other Memorabilia</name_plural>
+            </label>
+          </labels>
+        </item>
+        <item idno="pins" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Pin</name_singular>
+              <name_plural>Pins</name_plural>
+            </label>
+          </labels>
+        </item>
+        <item idno="plaque" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Plaque</name_singular>
+              <name_plural>Plaques</name_plural>
+            </label>
+          </labels>
+        </item>
+      </items>
+    </list>
+    
+    <list code="people_of_interest" hierarchical="0" system="0" vocabulary="0">
+      <labels>
+        <label locale="en_US">
+          <name>People of Interest</name>
+        </label>
+      </labels>
+      <items>
+        <item idno="resque_award" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Rescue Award</name_singular>
+              <name_plural>Rescue Awards</name_plural>
+            </label>
+          </labels>
+        </item>
+      </items>
+    </list>
+    
+    <list code="sikorsky_related" hierarchical="0" system="0" vocabulary="0">
+      <labels>
+        <label locale="en_US">
+          <name>Sikorsky Related</name>
+        </label>
+      </labels>
+      <items>
+        <item idno="sikorsky_article" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Sikorsky Article</name_singular>
+              <name_plural>Sikorsky Articles</name_plural>
+            </label>
+          </labels>
+        </item>
+        <item idno="sikorsky_news" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Sikorsky News (Newspaper)</name_singular>
+              <name_plural>Sikorsky News (Newspapers)</name_plural>
+            </label>
+          </labels>
+        </item>
+      </items>
+    </list>
+    
+    <list code="other" hierarchical="0" system="0" vocabulary="0">
+      <labels>
+        <label locale="en_US">
+          <name>Other</name>
+        </label>
+      </labels>
+      <items>
+        <item idno="wall" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>Wall</name_singular>
+              <name_plural>Walls</name_plural>
+            </label>
+          </labels>
+        </item>
+        <item idno="white_binder_f_schuber" enabled="1" default="0">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>White Binder F. Schuber</name_singular>
+              <name_plural>White Binders F. Schuber</name_plural>
+            </label>
+          </labels>
+        </item>
+      </items>
+    </list>
+    
+  
   </lists>
   <elementSets>
     <!-- Existing element sets from the default profile go here -->
@@ -3084,7 +3576,7 @@
         </restriction>
       </typeRestrictions>
     </metadataElement>
-    <!-- Custom metadata elements -->
+    <!-- NEEDS TO BE EDITED Custom metadata elements  -->
     <metadataElement code="search_1" datatype="Text">
       <labels>
         <label locale="en_US">
@@ -5143,7 +5635,7 @@
               <typename_reverse>is depicted by</typename_reverse>
             </label>
           </labels>
-          <subTypeLeft> </subTypeLeft>
+          <subTypeLeft/>
           <subTypeRight>event</subTypeRight>
         </type>
         <type code="describes" default="1">
@@ -5153,7 +5645,7 @@
               <typename_reverse>is described by</typename_reverse>
             </label>
           </labels>
-          <subTypeLeft> </subTypeLeft>
+          <subTypeLeft/>
           <subTypeRight>event</subTypeRight>
         </type>
       </types>
@@ -5173,7 +5665,7 @@
       </types>
     </relationshipTable>
     
-    <!-----Below is the custom Sikorsky relationship types------->
+    <!--Below is the custom Sikorsky relationship types-->
     
     <relationshipType id="is_related_to">
       <code>is_related_to</code>
