@@ -1,4 +1,4 @@
-# Sikorsky Archives Database Scripts
+# Sikorsky Archives Database Scripts (update coming soon to readme)
 
 ## Description
 This repository contains SQL and Python scripts used for querying, inserting, and transferring data into the Sikorsky Archives database. These scripts are part of an internship project focused on managing and retrieving historical data related to Sikorsky Aircraft.
